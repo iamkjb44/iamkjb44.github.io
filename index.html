@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cybersecurity Portfolio | JayB</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="module">
+        import emailjs from 'https://cdn.jsdelivr.net/npm/@emailjs/browser@4/+esm';
+        window.emailjs = emailjs;
+    </script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo">&lt;/IamKJB&gt;</div>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-content">
+            <h1>
+                <span class="typing-animation">JayB | Aspiring Cybersecurity Analyst</span>
+            </h1>
+            <p class="hero-tagline">Securing systems. One vulnerability at a time.</p>
+            <p class="hero-subtitle">Penetration Testing | Linux Administration | Vulnerability Assessment</p>
+            <a href="#projects" class="cta-button">View My Work</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <div class="profile-picture-container">
+                <img src="assets/images/profile.jpg" alt="Profile Picture" class="profile-picture">
+                <div class="profile-border"></div>
+            </div>
+            <div class="about-text">
+                <p>
+                    I'm JayB a ICT Apprentice with a growing passion for cybersecurity. My journey started with curiosity about how systems work, which evolved into a dedicated pursuit of understanding security vulnerabilities and defensive mechanisms.
+                </p>
+                <p>
+                    Currently, I'm diving deep into penetration testing and vulnerability assessment methodologies. I have hands-on experience with Linux environments, including Kali Linux for security testing and Ubuntu Server for administration.
+                </p>
+                <p>
+                    I'm developing my programming skills in C and Python, which I apply to security automation and analysis. My lab environment serves as a constant testing ground for new techniques and concepts.
+                </p>
+                <p>
+                    My goal is to become a proficient security professional who can identify and mitigate threats before they become vulnerabilities in real systems.
+                </p>
+                <div class="about-highlights">
+                    <div class="highlight-item">
+                        <strong>🔐 Security Focus:</strong> Penetration Testing & Vulnerability Assessment
+                    </div>
+                    <div class="highlight-item">
+                        <strong>🐧 Linux Expertise:</strong> Kali Linux & Ubuntu Server Administration
+                    </div>
+                    <div class="highlight-item">
+                        <strong>💻 Programming:</strong> Python, C, and Security Automation Scripts
+                    </div>
+                    <div class="highlight-item">
+                        <strong>🛠️ Lab Environment:</strong> Hands-on vulnerability testing in isolated systems
+                    </div>
+                    <div class="highlight-item">
+                        <strong>📚 Continuous Learner:</strong> Staying updated with latest security trends
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Technical Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <div class="skill-name">Kali Linux</div>
+                <div class="progress-bar">
+                    <div class="progress-fill" style="--progress-width: 65%"></div>
+                </div>
+                <div class="skill-level">Advanced | Penetration Testing & Reconnaissance</div>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-name">Ubuntu Server</div>
+                <div class="progress-bar">
+                    <div class="progress-fill" style="--progress-width: 25%"></div>
+                </div>
+                <div class="skill-level">Advanced | Linux Administration & Hardening</div>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-name">Web Reconnaissance</div>
+                <div class="progress-bar">
+                    <div class="progress-fill" style="--progress-width: 35%"></div>
+                </div>
+                <div class="skill-level">Intermediate | Information Gathering & Scanning</div>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-name">SQL Fundamentals</div>
+                <div class="progress-bar">
+                    <div class="progress-fill" style="--progress-width: 35%"></div>
+                </div>
+                <div class="skill-level">Intermediate | Database & SQL Injection Testing</div>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-name">Password Security Testing</div>
+                <div class="progress-bar">
+                    <div class="progress-fill" style="--progress-width: 55%"></div>
+                </div>
+                <div class="skill-level">Intermediate | Lab-Based Testing & Analysis</div>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-name">Python Programming</div>
+                <div class="progress-bar">
+                    <div class="progress-fill" style="--progress-width: 40%"></div>
+                </div>
+                <div class="skill-level">Beginner to Intermediate | Security Scripts</div>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-name">C Programming</div>
+                <div class="progress-bar">
+                    <div class="progress-fill" style="--progress-width: 45%"></div>
+                </div>
+                <div class="skill-level">Beginner | Systems & Low-Level Programming</div>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-name">Network Security</div>
+                <div class="progress-bar">
+                    <div class="progress-fill" style="--progress-width: 49%"></div>
+                </div>
+                <div class="skill-level">Intermediate | Protocols & Security Concepts</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-header">
+                    <div class="project-title">Discord Bot</div>
+                    <div>
+                        <span class="project-tag">Python</span>
+                        <span class="project-tag">discord.py</span>
+                        <span class="project-tag ongoing-tag">Ongoing</span>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <p class="project-description">
+                        A feature-rich Discord bot built with Python and discord.py library. The bot includes moderation tools, entertainment commands, and utility functions. Currently expanding capabilities with automated security monitoring and community engagement features. A hands-on project to master asynchronous programming and API integration.
+                    </p>
+                    <div class="project-links">
+                        <a href="https://github.com/iamkjb44" class="project-link">View on GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-header">
+                    <div class="project-title">AI Assistant</div>
+                    <div>
+                        <span class="project-tag">Python</span>
+                        <span class="project-tag">Machine Learning</span>
+                        <span class="project-tag ongoing-tag">Ongoing</span>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <p class="project-description">
+                        Developing an intelligent AI Assistant capable of natural language processing and contextual responses. The project explores machine learning algorithms, NLP techniques, and chatbot architecture. Integrating voice recognition and multi-language support while maintaining robust security practices throughout development.
+                    </p>
+                    <div class="project-links">
+                        <a href="https://github.com/iamkjb44" class="project-link">View on GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-header">
+                    <div class="project-title">Security Lab Experiments</div>
+                    <div>
+                        <span class="project-tag">Penetration Testing</span>
+                        <span class="project-tag">Kali Linux</span>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <p class="project-description">
+                        Hands-on vulnerability assessment and penetration testing experiments conducted in isolated lab environments. Includes reconnaissance exercises, vulnerability scanning, and exploitation techniques for learning purposes.
+                    </p>
+                    <div class="project-links">
+                        <a href="https://github.com/iamkjb44" class="project-link">View on GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-header">
+                    <div class="project-title">Linux Server Practice</div>
+                    <div>
+                        <span class="project-tag">Ubuntu Server</span>
+                        <span class="project-tag">Linux Admin</span>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <p class="project-description">
+                        Configuration and administration of Ubuntu Server environments. Includes user management, service deployment, security hardening, firewall configuration, and troubleshooting in real-world scenarios.
+                    </p>
+                    <div class="project-links">
+                        <a href="https://github.com/iamkjb44" class="project-link">View on GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- Contact Section -->
+    <section id="contact">
+        <h2>Get In Touch</h2>
+        <div class="contact-container">
+            <form id="contactForm">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required placeholder="Your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required placeholder="your.email@example.com">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" required placeholder="Tell me about your project or opportunity..."></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Message</button>
+                <div id="formStatus" class="form-status"></div>
+            </form>
+
+            <div class="social-links">
+                <a href="https://github.com/iamkjb44" class="social-link" title="GitHub" target="_blank">
+                    <img src="assets/icons/github.svg" alt="GitHub" class="social-icon">
+                </a>
+                <a href="https://linkedin.com/in/yourprofile" class="social-link" title="LinkedIn" target="_blank">
+                    <img src="assets/icons/linkedin.svg" alt="LinkedIn" class="social-icon">
+                </a>
+                <a href="https://youtube.com/@k1ngjayb" class="social-link" title="YouTube" target="_blank">
+                    <img src="assets/icons/youtube.svg" alt="YouTube" class="social-icon">
+                </a>
+                <a href="https://instagram.com/k1ngjayb" class="social-link" title="Instagram" target="_blank">
+                    <img src="assets/icons/instagram.svg" alt="Instagram" class="social-icon">
+                </a>
+                <a href="mailto:info.kjb7@gmail.com" class="social-link" title="Email">
+                    <img src="assets/icons/mail.svg" alt="Email" class="social-icon">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-text">
+            &lt; Developed with <span>passion</span> and <span>code</span> /&gt;
+        </div>
+        <div class="footer-text">
+            © 2026 JayB. All rights reserved. <span>Security is everyone's responsibility.</span>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
